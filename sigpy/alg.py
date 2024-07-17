@@ -88,7 +88,7 @@ class PowerMethod(Alg):
     def __init__(self, A, x, norm_func=None, max_iter=30):
         self.A = A
         self.x = x
-        self.max_eig = np.infty
+        self.max_eig = np.inf
         self.norm_func = norm_func
         super().__init__(max_iter)
 
